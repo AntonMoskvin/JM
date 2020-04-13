@@ -1,8 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
-import java.util.TreeMap;
-
 public class RomanNumsCheck extends Calculator {
     private int error = 0;
     private int num1, num2, resultNum;
@@ -70,36 +67,6 @@ public class RomanNumsCheck extends Calculator {
         }
         return 0;
     }
-
-
-
-///////////////////////////////////////////////////////////////////////
-   /*
-   public void romanCalculate() {
-
-        TreeMap<Integer, String> rNums = new TreeMap<Integer, String>();
-
-        rNums.put(1, "I");
-        rNums.put(2, "II");
-        rNums.put(3, "III");
-        rNums.put(4, "IV");
-        rNums.put(5, "V");
-        rNums.put(6, "VI");
-        rNums.put(7, "VII");
-        rNums.put(8, "VIII");
-        rNums.put(9, "IX");
-        rNums.put(10, "X");
-
-        for (Integer i : rNums.keySet()) {
-            if (r1.equals(rNums.get(i))) {
-                if (r2.equals(rNums.get(i))) {
-                    ////////code//////////////
-
-                }
-            }
-        }
-    }
-    */
 
 
 }
