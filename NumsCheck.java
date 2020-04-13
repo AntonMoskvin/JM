@@ -1,7 +1,7 @@
 package com.company;
 
 public class NumsCheck extends Calculator {
-    private static final int FROM = 0, TO = 10;
+    private static final int FROM = 1, TO = 10;
 
 
     //Проверка латинских чисел на соответствие

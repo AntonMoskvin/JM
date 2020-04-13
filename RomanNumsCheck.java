@@ -9,8 +9,8 @@ public class RomanNumsCheck extends Calculator {
     int num1 = romeToLatin(getR1());
     int num2 = romeToLatin(getR2());
     romeOpCheck(num1, num2);
-
-    System.out.println(resultNum);
+    ArabicToRoman ltr = new ArabicToRoman();
+    System.out.println(ltr.arabicToRoman(resultNum));
     }
 
 
@@ -41,6 +41,7 @@ public class RomanNumsCheck extends Calculator {
             error ++;
             System.out.println(error + " - NUM is WRONG");
             }
+
         return 0;
     }
 
