@@ -30,9 +30,6 @@ public class ArabicToRoman extends RomanNumsCheck {
 
 
     public static String arabicToRoman(int number) {
-        if ((number <= 0) || (number > 4000)) {
-            throw new IllegalArgumentException(number + " is not in range (0,4000]");
-        }
 
         List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValues();
 
